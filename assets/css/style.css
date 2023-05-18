@@ -165,8 +165,8 @@ hr {
 }
 
 #circle-container {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
@@ -176,7 +176,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url("../images/ref-whistle.jpg") no-repeat center center;
+    background:url("../images/ref-whistle.webp") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
