@@ -110,7 +110,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -121,7 +121,7 @@ footer {
     color: #3a3a3a;
 }
 
-#title-text >p {
+#title-text>p {
     font-size: 50%;
     padding-top: 10px;
     margin: 0;
@@ -132,7 +132,7 @@ footer {
     overflow: auto;
 }
 
-#title-text >h3 {
+#title-text>h3 {
     font-size: 60%;
 }
 
@@ -209,7 +209,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background:url("../images/ref-whistle.webp") no-repeat center center;
+    background: url("../images/ref-whistle.webp") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -223,7 +223,7 @@ hr {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -231,16 +231,16 @@ hr {
 
 .contact-section {
     clear: left;
-    background: url("../images/");
+    background: url("../images/main-image.jpg");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 600px;
 }
 
 .conatct-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: red;
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -248,6 +248,6 @@ hr {
 }
 
 .contact-form h2 {
-    color: #fafafa;
+    color: red;
     margin-bottom: 20px;
 }
