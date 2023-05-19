@@ -213,3 +213,28 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/* Form */
+
+.contact-section {
+    clear: left;
+    background: url("../images/");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.conatct-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.contact-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
