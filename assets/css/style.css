@@ -73,11 +73,25 @@ h2 {
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center;
     background-color: black;
+
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
 
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
 
+    to {
+        transform: scale(1.1);
+    }
+}
 
-/* main image and text */
 
 #title-outer {
     height: 350px;
@@ -95,9 +109,25 @@ h2 {
     width: 100%;
     position: absolute;
     top: 50px;
-    overflow: auto;
+    overflow: hidden;
     background-color: biege;
 
+}
+
+#title-text>p {
+    font-size: 50%;
+    color: black;
+    padding-top: 10px;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+}
+
+#title-text>h3 {
+    font-size: 60%;
 }
 
 /* footer */
@@ -121,27 +151,15 @@ footer {
     color: #3a3a3a;
 }
 
-#title-text>p {
-    font-size: 50%;
-    padding-top: 10px;
-    margin: 0;
-    text-align: center;
-    height: 300px;
-    width: 100%;
-    position: absolute;
-    overflow: auto;
-}
-
-#title-text>h3 {
-    font-size: 60%;
-}
-
-
 /* club ethos */
 
 #club-ethos {
     height: 600px;
-    background-color: green;
+    background-color: black;
+}
+
+#club-ethos>h2 {
+    color: whitesmoke;
 }
 
 #left-about {
@@ -162,7 +180,7 @@ footer {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid whitesmoke;
     width: 100%;
     margin: 5px 0;
 }
@@ -173,6 +191,11 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    color: whitesmoke;
+}
+
+.left-about-heading h2 {
+    color: whitesmoke;
 }
 
 .right-about-heading {
@@ -181,10 +204,12 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    color: whitesmoke;
 }
 
 .right-about-heading h2 {
     text-align: right;
+    color: whitesmoke;
 }
 
 .right-about-heading p {
