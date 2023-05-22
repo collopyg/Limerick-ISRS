@@ -223,20 +223,24 @@ hr {
 }
 
 #circle-container {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+
 }
 
 #circle-cover-bg {
-    background: url("../images/ref-whistle.webp") no-repeat center center;
+    background: url("../images/whistle-ref.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
+
+
+
 }
 
 /* gallery */
