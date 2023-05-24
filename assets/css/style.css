@@ -92,65 +92,6 @@ h2 {
     }
 }
 
-
-#title-outer {
-    height: 350px;
-    width: 100%;
-    position: relative;
-
-}
-
-#title-text {
-    font-size: 300%;
-    padding-top: 0px;
-    margin: 0;
-    text-align: center;
-    height: 300px;
-    width: 100%;
-    position: absolute;
-    top: 50px;
-    overflow: hidden;
-    background-color: biege;
-
-}
-
-#title-text>p {
-    font-size: 50%;
-    color: black;
-    padding-top: 10px;
-    margin: 0;
-    text-align: center;
-    height: 300px;
-    width: 100%;
-    position: absolute;
-    overflow: auto;
-}
-
-#title-text>h3 {
-    font-size: 60%;
-}
-
-/* footer */
-
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
 /* club ethos */
 
 #club-ethos {
@@ -240,6 +181,66 @@ hr {
     border-radius: 50%;
 }
 
+#title-outer {
+    height: 350px;
+    width: 100%;
+    position: relative;
+
+}
+
+#title-text {
+    font-size: 300%;
+    padding-top: 0px;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    overflow: hidden;
+    background-color: biege;
+
+}
+
+#title-text>p {
+    font-size: 50%;
+    color: black;
+    padding-top: 10px;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+}
+
+#title-text>h3 {
+    font-size: 60%;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
+
 /* gallery */
 
 #photos {
@@ -318,6 +319,15 @@ hr {
         padding: 0 20px;
     }
 }
+
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
+
 
 /* Form */
 
