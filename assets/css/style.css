@@ -164,8 +164,8 @@ hr {
 }
 
 #circle-container {
-    width: 450px;
-    height: 450px;
+    width: 425px;
+    height: 425px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
@@ -198,7 +198,7 @@ hr {
     position: absolute;
     top: 50px;
     overflow: hidden;
-    background-color: biege;
+    background-color: beige;
 
 }
 
@@ -336,7 +336,7 @@ footer {
     background: url("../images/main-image.jpg");
     background-size: cover;
     background-position: center;
-    height: 750px;
+    height: 800px;
 }
 
 .contact-form {
