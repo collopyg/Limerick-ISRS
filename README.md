@@ -61,6 +61,7 @@ Media
 •	The images used for the gallery page were taken from personal photos that I had of our society members.
 
 Wireframe Designs
+
 •	Home Page
  
 •	Gallery 
